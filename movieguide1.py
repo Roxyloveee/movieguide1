@@ -4,7 +4,7 @@ def movie_guide():
     print("Command Menu")
     print("list --> List all movies")
     print("add --> Add a movie")
-    print("delete --> Delete a movie")
+    print("del --> Delete a movie")
     print("exit --> Close Application")
     
 def list(movie_list):
@@ -43,5 +43,5 @@ def main():
         else:
             print("Not a valid command, please try again. \n")
             print("Later!")
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
